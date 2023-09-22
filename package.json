@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"postcss-preset-env": "^9.1.4",
 		"vite-plugin-purgecss": "^0.2.12"
 	}
 }
