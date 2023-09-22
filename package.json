@@ -2,6 +2,8 @@
 	"name": "user-interface",
 	"version": "0.0.1",
 	"private": true,
+	"author": "elbie",
+	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -29,5 +31,8 @@
 		"vite": "^4.4.2",
 		"vitest": "^0.32.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"vite-plugin-purgecss": "^0.2.12"
+	}
 }
