@@ -29,6 +29,10 @@
 - [ ] setup error handling with error page
 - [ ] add page loading features
 
+- [ ] user login ...
+- [ ] use oauth or do username and pass?
+- [ ] what is being used instead of cookies?
+
 ## Styling
 
 - [ ] confirm [ ] Sass, [ ] PostCSS, [ ] PurgeCSS are installed and setup correctly
