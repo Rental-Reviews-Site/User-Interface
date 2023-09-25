@@ -18,7 +18,7 @@
 
 ## JavaScript Framework
 
-- [ ] list needed components
+- [x] list needed components
 - [ ] chart pages and page requirements (refer to design system mockups)
 
 ### SSR & Kit
