@@ -2,7 +2,7 @@
 
 - [ ] finish and add lofi mockups to repo: [ ] mobile [ ] desktop
 - [ ] finish and add hifi mockups to repo: [ ] mobile [ ] desktop
-- [ ] finish and add [ ] user flows and [ ] personas to repo
+- [ ] finish and add [x] user flows and [x] personas to repo
 - [ ] add moodboard to repo?
 - [ ] design and add [ ] colors [ ] typography [ ] spacing [ ] components
 - [ ] create custom svgs
@@ -48,6 +48,8 @@
 - [ ] research progressive web app features
 - [ ] add visibly hidden button
 
+---
+
 #### routing
 
 Flow 1:
@@ -72,5 +74,12 @@ Flow 3:
 /filter/:slug/browse
 (thumbnails can link to page /house-info/:id)
 
-Notes: 'house' and 'new' are not user-friendly words. Non-recorded home might be old, also 'house' implies a particular kind of strcuture, but 'home page' has other meaning as well
+Other:
+/about (export const csr = false;)
+/share
+/login
+/login/:slug
+/contact
+
+Notes: 'house' and 'new' are not user-friendly words. Non-recorded home might be old, also 'house' implies a particular kind of strcuture, but 'home page' has other meaning as well. Use 'rental' instead of house/home? so /rental/:id
 (A woman once said to me, while taking down my information, "Do you live in an apartment or a home?")
