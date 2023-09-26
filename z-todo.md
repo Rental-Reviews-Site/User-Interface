@@ -25,7 +25,7 @@
 
 - [ ] create JSON schema
 - [ ] plan API endpoints
-- [ ] outline page routing
+- [ ] outline page routing [see below](#routing)
 - [ ] setup error handling with error page
 - [ ] add page loading features
 
@@ -47,3 +47,18 @@
 - [ ] add other language options
 - [ ] research progressive web app features
 - [ ] add visibly hidden button
+
+#### routing
+
+/
+/search
+/search/:id
+/search/:id/add-review
+
+/search/new
+/search/new/add-review (<- slug? depends when we are generating new DB entry?)
+
+/filter
+/filter/:slug/browse
+
+/house-info/:id
