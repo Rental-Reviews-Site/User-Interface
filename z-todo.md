@@ -50,15 +50,27 @@
 
 #### routing
 
+Flow 1:
 /
 /search
 /search/:id
 /search/:id/add-review
 
+Flow 1B:
 /search/new
 /search/new/add-review (<- slug? depends when we are generating new DB entry?)
 
+Flow 2:
+/
+/search
+/search/:id
+/house-info/:id
+
+Flow 3:
+/
 /filter
 /filter/:slug/browse
+(thumbnails can link to page /house-info/:id)
 
-/house-info/:id
+Notes: 'house' and 'new' are not user-friendly words. Non-recorded home might be old, also 'house' implies a particular kind of strcuture, but 'home page' has other meaning as well
+(A woman once said to me, while taking down my information, "Do you live in an apartment or a home?")
