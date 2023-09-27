@@ -1,7 +1,12 @@
-<nav>
-  <a href="#apple">Apple</a>
-  <a href="#banana">Banana</a>
-  <a href="#pear">Pear</a>
-</nav>
+<header>
+  <div class="site-logo">
+    <a href="/">LOGO</a>
+  </div>
+  <nav>
+    <a href="/share">share</a>
+    <a href="/contact">contact</a>
+    <a href="/login">login</a>
+  </nav>
+</header>
 
 <slot />
