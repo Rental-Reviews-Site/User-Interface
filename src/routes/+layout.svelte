@@ -1,3 +1,7 @@
+<script>
+  import "$lib/style.css";
+</script>
+
 <header>
   <div class="site-logo">
     <a href="/">LOGO</a>
