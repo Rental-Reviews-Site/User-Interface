@@ -66,13 +66,13 @@ Flow 2:
 /
 /search
 /search/:id
-/house-info/:id
+/rental-info/:id
 
 Flow 3:
 /
 /filter
 /filter/:slug/browse
-(thumbnails can link to page /house-info/:id)
+(thumbnails can link to page /rental-info/:id)
 
 Other:
 /about (export const csr = false;)
