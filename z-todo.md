@@ -1,8 +1,8 @@
 ## Design System
 
-- [ ] finish and add lofi mockups to repo: [ ] mobile [ ] desktop
+- [ ] finish and add lofi mockups to repo: [x] mobile [ ] desktop
 - [ ] finish and add hifi mockups to repo: [ ] mobile [ ] desktop
-- [ ] finish and add [x] user flows and [x] personas to repo
+- [x] finish and add [x] user flows and [x] personas to repo
 - [ ] add moodboard to repo?
 - [ ] design and add [ ] colors [ ] typography [ ] spacing [ ] components
 - [ ] create custom svgs
@@ -25,7 +25,7 @@
 
 - [ ] create JSON schema
 - [ ] plan API endpoints
-- [ ] outline page routing [see below](#routing)
+- [x] outline page routing [see below](#routing)
 - [ ] setup error handling with error page
 - [ ] add page loading features
 
