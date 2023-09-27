@@ -10,3 +10,7 @@
 </header>
 
 <slot />
+
+<footer>
+  <p>little footer</p>
+</footer>
