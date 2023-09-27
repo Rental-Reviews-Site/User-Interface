@@ -64,8 +64,8 @@ Flow 1B:
 
 Flow 2:
 /
-/search
-/search/:id
+/see-reviews (similar to /search)
+/see-reviews/:id
 /rental-info/:id
 
 Flow 3:
