@@ -38,10 +38,17 @@ $button-line-height: 1;
 $button-padding: .75em 2em;
 $button-text-transform: uppercase;
 
-$button-primary-color: $color-neutral-100;
-$button-primary-background: $color-primary-700;
-$button-primary-color-hover: $color-neutral-100;
-$button-primary-background-hover: $color-primary-800;
+$button-primary-color: $color-accent-100;
+$button-primary-background: $color-primary-600;
+$button-primary-border: 1px solid $color-primary-250;
+
+$button-primary-color-hover: $color-primary-700;
+$button-primary-background-hover: $color-primary-300;
+$button-primary-border-hover: 1px solid $color-primary-50;
+
+$button-primary-color-active: $color-accent-100;
+$button-primary-background-active: $color-primary-700;
+$button-primary-border-active: 1px solid $color-primary-250;
 
 $button-accent-color: $color-neutral-100;
 $button-accent-background: $color-accent-400;
