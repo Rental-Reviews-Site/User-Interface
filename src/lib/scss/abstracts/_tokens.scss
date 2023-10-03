@@ -13,10 +13,17 @@ $color-text-interactive-default: $color-accent-400;
 $color-text-interactive-hover: $color-accent-500;
 $letter-spacing-loose: 0;
 $border-radius: $size-1;
-//----
+
+//--body--
 $body-font-family: $font-family-base;
-$body-font-size: $font-size-400;
+$body-font-size: $font-size-500;
 $body-font-weight: $font-weight-default;
+$body-line-height: 0;
+$body-text-color: $color-text-default;
+$body-background-color: $color-background-default;
+
+$link-color: $color-text-interactive-default;
+$link-color-hover: $color-text-interactive-hover;
 
 $heading-font-family: $font-family-accent;
 $heading-font-weight: $font-weight-bold;
