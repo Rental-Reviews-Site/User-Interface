@@ -25,8 +25,21 @@ $body-background-color: $color-background-default;
 $link-color: $color-text-interactive-default;
 $link-color-hover: $color-text-interactive-hover;
 
-$heading-font-family: $font-family-accent;
+$heading-font-family: $body-font-family;
+$heading-font-weight: $body-font-weight;
+
+$heading-color-default: $color-accent-100;
 $heading-font-weight: $font-weight-bold;
+$heading-letter-spacing: $letter-spacing-loose;
+$heading-line-height: 1;
+$heading-text-transform: uppercase;
+
+$heading-1-color: $heading-color-default;
+$heading-1-font-size: $font-size-900;
+$heading-2-color: $heading-color-default;
+$heading-2-font-size: $font-size-800;
+$heading-3-color: $heading-color-default;
+$heading-3-font-size: $font-size-700;
 
 //--layout--
 $grid-gap: $size-6;
@@ -58,6 +71,23 @@ $footer-link-font-family: $font-family-accent;
 $footer-link-text-decoration: none;
 $footer-fine-print: $body-font-size;
 $footer-fine-print-family: $body-font-family;
+
+//--navigation--
+$navigation-color: $site-header-color;
+$navigation-color-hover: $color-neutral-000;
+$navigation-font-size: $font-size-400;
+$navigation-gap: $size-9;
+$navigation-link-text-decoration: none;
+$navigation-font-family: $body-font-family;
+$navigation-font-weight: $body-font-weight;
+
+//--icons-&-logo--
+$logo-fill-default: $color-accent-600;
+$logo-fill-header: $logo-fill-default;
+$logo-fill-footer: $logo-fill-default;
+$logo-size-default: 42px;
+$logo-size-header: $logo-size-default;
+$logo-size-footer: $logo-size-default;
 
 //--buttons--
 $button-border: 0;
