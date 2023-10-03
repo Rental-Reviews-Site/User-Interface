@@ -111,3 +111,25 @@ $button-primary-color-active: $color-accent-100;
 $button-primary-background-active: $color-primary-700;
 $button-primary-border-active: 1px solid $color-neutral-000;
 
+//--forms--
+$form-label-color: $body-text-color;
+$form-label-font-family: $body-font-family;
+$form-label-font-weight: $font-weight-bold;
+$form-label-font-size: $body-font-size;
+
+$form-input-color: $color-primary-850;
+$form-input-font-family: $body-font-family;
+$form-input-font-weight: $font-weight-semi-bold;
+$form-input-font-size: $body-font-size;
+$form-input-background-color: $color-primary-100;
+$form-input-border-default: 3px solid $color-primary-850;
+$form-input-border-focus: 3px solid $color-neutral-000;
+$form-input-padding: $size-3;
+$form-input-border-radius: $border-radius-1;
+
+$form-placeholder-color: $color-primary-500;
+$form-placeholder-font-family: $form-input-font-family;
+$form-placeholder-font-weight: $form-input-font-weight;
+$form-placeholder-font-size: $body-font-size;
+
+$form-group-spacing: 0.5rem;
