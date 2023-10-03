@@ -1,9 +1,7 @@
 *,
 *::before,
 *::after {
-  background-color: lightblue;
   box-sizing: border-box;
-  color: brown;
 }
 
 * {
@@ -19,4 +17,3 @@ svg {
   max-width: 100%;
 }
 
-//ok to bring in a more robust reset like Andy Bell's or Josh Comeau
