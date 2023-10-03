@@ -40,7 +40,7 @@ $container-max-width: 60rem;
 $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
-// site header
+//--site-header--
 $site-header-background-color: $color-primary-900;
 $site-header-color: $color-accent-100;
 $site-header-padding: $size-8 0;
@@ -48,6 +48,16 @@ $site-header-margin: 0;
 $site-header-jusitifcation-small-screens: center;
 $site-header-jusitifcation-large-screens: space-between;
 $site-header-alignment: center;
+
+//--site-footer--
+$footer-background-color: $color-primary-400;
+$footer-text-color: $color-accent-50;
+$footer-link-color: $link-color;
+$footer-link-color-hover: $link-color-hover;
+$footer-link-font-family: $font-family-accent;
+$footer-link-text-decoration: none;
+$footer-fine-print: $body-font-size;
+$footer-fine-print-family: $body-font-family;
 
 //--buttons--
 $button-border: 0;
