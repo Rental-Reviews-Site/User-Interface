@@ -1,7 +1,19 @@
+@use 'colors' as *;
 @use 'typography' as *;
+@use 'sizes' as *;
 
 $prefix: "rent";
+$active-theme: $light;
+$enable-media-query-dark-mode: false;
 
+//--Contextual--
+$color-text-default: $color-primary-700;
+$color-background-default: $color-primary-100;
+$color-text-interactive-default: $color-accent-400;
+$color-text-interactive-hover: $color-accent-500;
+$letter-spacing-loose: 0;
+$border-radius: $size-1;
+//----
 $body-font-family: $font-family-base;
 $body-font-size: $font-size-400;
 $body-font-weight: $font-weight-default;
