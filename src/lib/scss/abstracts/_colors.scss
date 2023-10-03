@@ -8,6 +8,7 @@ $-clr-gray-500: hsl(0 0% 50%);
 $-clr-gray-600: hsl(0 0% 40%);
 $-clr-gray-700: hsl(0 0% 30%);
 $-clr-gray-800: hsl(0 0% 17.5%);
+$-clr-gray-850: hsl(0, 0%, 12%);
 $-clr-gray-900: hsl(0 0% 7.5%);
 $-clr-black: hsl(0 0% 0%);
 
@@ -18,6 +19,7 @@ $-clr-orange: #F07949;
 
 $-clr-magenta-50: #F9D2F0;
 $-clr-magenta-alt-50: #FEE4F8;
+$-clr-magenta-75: #EDDCEF;
 $-clr-magenta-100: #F3A5E2;
 $-clr-magenta-200: #EE77D3;
 $-clr-magenta-alt-200: #EC6ACF;
@@ -35,6 +37,7 @@ $-clr-magenta-faded-300: #D65CBB;
 $-clr-magenta-faded-400: #CC33AA;
 $-clr-magenta-faded-500: #a32989;
 $-clr-magenta-faded-600: #7A1F66;
+$-clr-magenta-faded-650: #8F3D7D;
 $-clr-magenta-faded-700: #521444;
 $-clr-magenta-faded-800: #290A22;
 $-clr-magenta-faded-900: #140511;
@@ -49,8 +52,9 @@ $-clr-magenta-dull-700: #4D1A41;
 $-clr-magenta-dull-800: #260D21;
 $-clr-magenta-dull-900: #130610;
 
+$-clr-crimson-250: #E87388;
 $-clr-crimson-300: #E6657D;
-$-clr-crimson-300-alt: #F5627C;
+$-clr-crimson-300-alt: #f5627c;
 $-clr-crimson-400: #DF3A58;
 $-clr-crimson-500: #c5203e;
 $-clr-crimson-600: #9A1931;
@@ -67,7 +71,7 @@ $-clr-orange-dull-100: #E0C3B8;
 $-clr-orange-dull-200: #D1A594;
 $-clr-orange-dull-300: #C48C75;
 
-$-clr-violet-50: #E5D7F4;
+$-clr-violet-50: #e5d7f4;
 $-clr-violet-alt-50: #E7D0FF;
 $-clr-violet-100: #D8C3EE;
 $-clr-violet-alt-200: #C6A8E6;
@@ -78,7 +82,8 @@ $-clr-violet-400: #8A4CCC;
 // $-clr-violet-500: #;
 $-clr-violet-600: #4F257E;
 $-clr-violet-700: #361957;
-$-clr-violet-800: #1E0E30;
+$-clr-violet-800: #1e0e30;
+$-clr-violet-850: #26123b;
 $-clr-violet-900: #0D0614;
 $-clr-violet-faded-50: #E5DAF1;
 $-clr-violet-faded-100: #D8C7EA;
@@ -89,15 +94,61 @@ $-clr-violet-faded-600: #4F2D76;
 $-clr-violet-faded-700: #371F51;
 $-clr-violet-faded-800: #1E112D;
 $-clr-violet-faded-900: #0D0713;
-$-clr-violet-dull-50: #E5DCEF;
+$-clr-violet-dull-50: #e5dcef;
 $-clr-violet-dull-100: #D8CBE7;
+$-clr-violet-dull-150: #BFACD3;
 $-clr-violet-dull-200: #BFA8D6;
 $-clr-violet-dull-300: #A586C6;
 $-clr-violet-dull-400: #8B63B6;
+$-clr-violet-dull-500: #514162;
 $-clr-violet-dull-600: #50396A;
 $-clr-violet-dull-700: #372749;
 $-clr-violet-dull-800: #1E1628;
 $-clr-violet-dull-900: #0D0911;
 // --themes--------------------------------------------
-
+// this will be $dark, I just have the dark mode more fleshed out currently
+$light: (
+  "neutral": (
+    "000": $-clr-white,
+    "100": $-clr-gray-100,
+    "200": $-clr-gray-200,
+    "300": $-clr-gray-300,
+    "400": $-clr-gray-400,
+    "500": $-clr-gray-500,
+    "600": $-clr-gray-600,
+    "700": $-clr-gray-700,
+    "800": $-clr-gray-800,
+    "850": $-clr-gray-850,
+    "900": $-clr-gray-900,
+    "1000": $-clr-black,
+  ),
+  "accent": (
+    "50": $-clr-magenta-alt-50,
+    "100": $-clr-magenta-75,
+    "150": $-clr-magenta-alt-200,
+    "200": $-clr-orange-200,
+    "250": $-clr-crimson-250,
+    "300": $-clr-crimson-300,
+    "400": $-clr-crimson-400,
+    "500": $-clr-magenta-500,
+    "600": $-clr-crimson-600,
+    "700": $-clr-magenta-faded-700,
+  ),
+  "primary": (
+    "50": $-clr-violet-dull-50,
+    "100": $-clr-violet-alt-50,
+    "150": $-clr-violet-dull-150,
+    "200": $-clr-violet-alt-200,
+    "225": $-clr-violet-200,
+    "250": $-clr-violet-faded-200,
+    "300": $-clr-violet-300,
+    "400": $-clr-violet-dull-500,
+    "500": $-clr-violet-dull-600,
+    "600": $-clr-violet-600,
+    "700": $-clr-violet-700,
+    "800": $-clr-violet-dull-800,
+    "850": $-clr-violet-850,
+    "900": $-clr-violet-900,
+  ),
+);
 // --contextual color tokens-----------------------------------------
