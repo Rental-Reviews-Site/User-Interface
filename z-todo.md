@@ -3,8 +3,7 @@
 - [ ] finish and add lofi mockups to repo: [x] mobile [ ] desktop
 - [ ] finish and add hifi mockups to repo: [ ] mobile [ ] desktop
 - [x] finish and add [x] user flows and [x] personas to repo
-- [ ] add moodboard to repo?
-- [ ] design and add [ ] colors [x] typography [ ] spacing [ ] components
+- [ ] design and add [x] colors [x] typography [ ] spacing [ ] components
 - [ ] create custom svgs
 - [ ] create custom background images
 - [ ] add assets: [ ] svgs and [ ] background images
@@ -37,9 +36,9 @@
 
 - [ ] confirm [x] Sass, [ ] PostCSS, [ ] PurgeCSS are installed and setup correctly
 - [x] add SCSS boilerplate to src/lib/scss
-- [ ] list components that need styling
+- [x] list components that need styling (see above in JavaScript Framework)
 - [ ] style basic page layout
-- [ ] list pages for styling
+- [x] list pages for styling: [ ] home page, [ ] find address page, [ ] add details page, [ ] address profile page, [ ] new address profile page, [ ] filter results page, [ ] browse addresses page
 
 ## Accessibility
 
