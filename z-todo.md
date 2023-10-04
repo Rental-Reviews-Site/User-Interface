@@ -35,8 +35,8 @@
 
 ## Styling
 
-- [ ] confirm [ ] Sass, [ ] PostCSS, [ ] PurgeCSS are installed and setup correctly
-- [ ] add SCSS boilerplate to src/lib/scss
+- [ ] confirm [x] Sass, [ ] PostCSS, [ ] PurgeCSS are installed and setup correctly
+- [x] add SCSS boilerplate to src/lib/scss
 - [ ] list components that need styling
 - [ ] style basic page layout
 - [ ] list pages for styling
@@ -64,15 +64,15 @@ Flow 1B:
 
 Flow 2:
 /
-/search
-/search/:id
-/house-info/:id
+/see-reviews (similar to /search)
+/see-reviews/:id
+/rental-info/:id
 
 Flow 3:
 /
 /filter
 /filter/:slug/browse
-(thumbnails can link to page /house-info/:id)
+(thumbnails can link to page /rental-info/:id)
 
 Other:
 /about (export const csr = false;)
