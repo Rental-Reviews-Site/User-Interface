@@ -1,0 +1,135 @@
+@use 'colors' as *;
+@use 'typography' as *;
+@use 'sizes' as *;
+
+$prefix: "rent";
+$active-theme: $light;
+$enable-media-query-dark-mode: false;
+
+//--Contextual--
+$color-text-default:  $color-accent-100;
+$color-background-default:$color-primary-900;
+$color-text-interactive-default: $color-neutral-000;
+$color-text-interactive-hover: $color-accent-150;
+$letter-spacing-loose: 0;
+$border-radius-1: $size-1;
+
+//--body--
+$body-font-family: $font-family-base;
+$body-font-size: $font-size-500;
+$body-font-weight: $font-weight-default;
+$body-line-height: 0;
+$body-text-color: $color-text-default;
+$body-background-color: $color-background-default;
+
+$link-color: $color-text-interactive-default;
+$link-color-hover: $color-text-interactive-hover;
+
+$heading-font-family: $body-font-family;
+$heading-font-weight: $body-font-weight;
+
+$heading-color-default: $color-accent-100;
+$heading-font-weight: $font-weight-bold;
+$heading-letter-spacing: $letter-spacing-loose;
+$heading-line-height: 1;
+$heading-text-transform: uppercase;
+
+$heading-1-color: $heading-color-default;
+$heading-1-font-size: $font-size-900;
+$heading-2-color: $heading-color-default;
+$heading-2-font-size: $font-size-800;
+$heading-3-color: $heading-color-default;
+$heading-3-font-size: $font-size-700;
+
+//--layout--
+$grid-gap: $size-6;
+$flex-group-gap: $size-4;
+
+$hero-padding-block: clamp(15rem, 15vh, 20rem);
+$section-padding-block: clamp(3rem, 10vh, 7rem);
+
+$container-min-margin-inline: $size-4;
+$container-max-width: 60rem;
+$container-max-width-narrow: 40rem;
+$container-max-width-wide: 75rem;
+
+//--site-header--
+$site-header-background-color: $color-primary-900;
+$site-header-color: $color-accent-100;
+$site-header-padding: $size-8 0;
+$site-header-margin: 0;
+$site-header-jusitifcation-small-screens: center;
+$site-header-jusitifcation-large-screens: space-between;
+$site-header-alignment: center;
+
+//--site-footer--
+$footer-background-color: $color-primary-400;
+$footer-text-color: $color-accent-50;
+$footer-link-color: $link-color;
+$footer-link-color-hover: $link-color-hover;
+$footer-link-font-family: $font-family-accent;
+$footer-link-text-decoration: none;
+$footer-fine-print: $body-font-size;
+$footer-fine-print-family: $body-font-family;
+
+//--navigation--
+$navigation-color: $site-header-color;
+$navigation-color-hover: $color-neutral-000;
+$navigation-font-size: $font-size-400;
+$navigation-gap: $size-9;
+$navigation-link-text-decoration: none;
+$navigation-font-family: $body-font-family;
+$navigation-font-weight: $body-font-weight;
+
+//--icons-&-logo--
+$logo-fill-default: $color-accent-600;
+$logo-fill-header: $logo-fill-default;
+$logo-fill-footer: $logo-fill-default;
+$logo-size-default: 42px;
+$logo-size-header: $logo-size-default;
+$logo-size-footer: $logo-size-default;
+
+//--buttons--
+$button-border: 0;
+$button-border-radius: $border-radius-1;
+$button-font-family: $body-font-family;
+$button-font-size: $size-6;
+$button-font-weight: $font-weight-medium;
+$button-line-height: 1;
+$button-padding: .75em 2em;
+$button-text-transform: uppercase;
+
+$button-primary-color: $color-accent-100;
+$button-primary-background: $color-primary-600;
+$button-primary-border: 1px solid $color-primary-250;
+
+$button-primary-color-hover: $color-primary-700;
+$button-primary-background-hover: $color-primary-300;
+$button-primary-border-hover: 1px solid $color-primary-50;
+
+$button-primary-color-active: $color-accent-100;
+$button-primary-background-active: $color-primary-700;
+$button-primary-border-active: 1px solid $color-neutral-000;
+
+//--forms--
+$form-label-color: $body-text-color;
+$form-label-font-family: $body-font-family;
+$form-label-font-weight: $font-weight-bold;
+$form-label-font-size: $body-font-size;
+
+$form-input-color: $color-primary-850;
+$form-input-font-family: $body-font-family;
+$form-input-font-weight: $font-weight-semi-bold;
+$form-input-font-size: $body-font-size;
+$form-input-background-color: $color-primary-100;
+$form-input-border-default: 3px solid $color-primary-850;
+$form-input-border-focus: 3px solid $color-neutral-000;
+$form-input-padding: $size-3;
+$form-input-border-radius: $border-radius-1;
+
+$form-placeholder-color: $color-primary-500;
+$form-placeholder-font-family: $form-input-font-family;
+$form-placeholder-font-weight: $form-input-font-weight;
+$form-placeholder-font-size: $body-font-size;
+
+$form-group-spacing: 0.5rem;

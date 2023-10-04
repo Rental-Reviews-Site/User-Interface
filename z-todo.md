@@ -4,7 +4,7 @@
 - [ ] finish and add hifi mockups to repo: [ ] mobile [ ] desktop
 - [x] finish and add [x] user flows and [x] personas to repo
 - [ ] add moodboard to repo?
-- [ ] design and add [ ] colors [ ] typography [ ] spacing [ ] components
+- [ ] design and add [ ] colors [x] typography [ ] spacing [ ] components
 - [ ] create custom svgs
 - [ ] create custom background images
 - [ ] add assets: [ ] svgs and [ ] background images
@@ -35,8 +35,8 @@
 
 ## Styling
 
-- [ ] confirm [ ] Sass, [ ] PostCSS, [ ] PurgeCSS are installed and setup correctly
-- [ ] add SCSS boilerplate to src/lib/scss
+- [ ] confirm [x] Sass, [ ] PostCSS, [ ] PurgeCSS are installed and setup correctly
+- [x] add SCSS boilerplate to src/lib/scss
 - [ ] list components that need styling
 - [ ] style basic page layout
 - [ ] list pages for styling
@@ -82,4 +82,4 @@ Other:
 /contact
 
 Notes: 'house' and 'new' are not user-friendly words. Non-recorded home might be old, also 'house' implies a particular kind of strcuture, but 'home page' has other meaning as well. Use 'rental' instead of house/home? so /rental/:id
-(A woman once said to me, while taking down my information, "Do you live in an apartment or a home?")
+(A old woman once said to me, while taking down my information, "Do you live in an apartment or a home?")
