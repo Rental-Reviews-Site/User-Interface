@@ -33,5 +33,8 @@
 		"vite": "^4.4.2",
 		"vite-plugin-purgecss": "^0.2.12",
 		"vitest": "^0.32.2"
+	},
+	"dependencies": {
+		"get-func-name": "^3.0.0"
 	}
 }
